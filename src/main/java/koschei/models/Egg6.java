@@ -1,16 +1,11 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Egg6 {
-    private final Needle7 needle;
+    private Needle7 needle;
 
     public Egg6(Needle7 needle) {
         this.needle = needle;
     }
-
-    @Autowired
-
 
     @Override
     public String toString() {
